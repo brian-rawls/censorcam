@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Person segmentation backends.
 
 The default backend is an Ultralytics YOLO segmentation model restricted to

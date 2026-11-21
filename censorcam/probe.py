@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Latency probe: a small barcode strip stamped onto outgoing frames.
 
 The strip encodes the wall-clock time (ms, mod 2^24) at which the frame left

@@ -1,5 +1,10 @@
 # Changelog
 
+CensorCam by Aeternum Logic, developed by Brian Rawls.
+
+## Unreleased
+- Added author and company credits: README Credits section, AUTHORS.md, NOTICE, source-file copyright headers, startup banner and dashboard footer.
+
 ## 0.1.0 (2026-11-20)
 
 First working release, tested live with PS5 → Elgato HD60 X → OBS 33 → TikTok LIVE Studio on an RTX 4070 Ti SUPER.

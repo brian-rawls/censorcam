@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Measure downstream latency: CensorCam output -> OBS -> Virtual Camera -> TikTok LIVE Studio preview.
 
 1. Start CensorCam, open http://127.0.0.1:8765/ and tick "latency probe"

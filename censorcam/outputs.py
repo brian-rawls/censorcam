@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Output sinks and the single output thread.
 
 All sinks are opened and driven from ONE thread (OutputWorker). Spout uses an

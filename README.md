@@ -1,5 +1,7 @@
 # CensorCam
 
+**By [Aeternum Logic](#credits) · Developed by Brian Rawls**
+
 **Manual, fail-closed, GPU-accelerated censorship for livestreaming console gameplay through OBS Studio and TikTok LIVE Studio.**
 
 You decide when to censor, with a Stream Deck button or a browser dashboard. When you turn on **BLUR PEOPLE**, a local AI model finds human-shaped characters in every frame and pixelates them. **BLUR ALL** blurs the whole picture instantly without waiting for the AI. If the AI ever fails or falls behind while BLUR PEOPLE is on, the frame goes out **fully blurred**, never raw.
@@ -96,6 +98,18 @@ live.local.args   your personal settings (git-ignored; created by build_engine.b
 - Windows-only for live use (Spout and DirectShow). The tests and the accuracy tools also run on Linux and macOS.
 - The TensorRT engine is tied to your GPU, driver and TensorRT version. Rebuild it with `build_engine.bat` after upgrades.
 
+## Credits
+
+**CensorCam** is developed by **Brian Rawls** and published by **Aeternum Logic**.
+
+- Author and lead developer: Brian Rawls ([@brian-rawls](https://github.com/brian-rawls))
+- Company: Aeternum Logic
+
+Built with [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), [OpenCV](https://opencv.org/), [PyTorch](https://pytorch.org/), [NVIDIA TensorRT](https://developer.nvidia.com/tensorrt), [SpoutGL](https://github.com/jlai/Python-SpoutGL) and the [OBS Spout2 plugin](https://github.com/Off-World-Live/obs-spout2-plugin).
+
 ## License
+
+Copyright © 2026 Aeternum Logic. Developed by Brian Rawls.
+
 
 [AGPL-3.0](LICENSE). CensorCam uses [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), which is AGPL-3.0 licensed. Model weights are downloaded from Ultralytics at install time and are not included in this repository.

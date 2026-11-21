@@ -69,3 +69,6 @@ If OBS also had the capture card's video, a misconfigured scene, a crash or a pl
 - Spout and OBS run on independent frame clocks, so an occasional frame may be shown twice. Running at 60 fps makes this much less noticeable than at 30.
 - In BLUR PEOPLE, pipeline latency (~18 ms) is a little over one 60 fps frame. NORMAL mode adds well under 1 ms.
 - Ultralytics pre/post-processing runs in Python, so live inference (~8 ms) is slower than the raw engine benchmark (~2.4 ms). A custom TensorRT pipeline with GPU pre-processing could close that gap.
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*

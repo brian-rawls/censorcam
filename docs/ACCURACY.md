@@ -80,3 +80,6 @@ Try these one at a time, re-scoring after each:
    4. export it with `tools/export_tensorrt.py --weights runs/segment/train/weights/best.pt`.
 
 Use the same settings live as you used in the evaluation: `--conf`, `--dilate`, `--shape` and `--imgsz` all change coverage.
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*

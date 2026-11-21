@@ -30,3 +30,6 @@ The promise: **while BLUR PEOPLE or BLUR ALL is selected, viewers never see an u
 - **Characters the model doesn't detect.** A missed detection isn't an error, so it isn't caught by the rules above. This is an accuracy question; measure it with [ACCURACY.md](ACCURACY.md) and tune `--conf`, `--dilate`, `--shape`, `--imgsz` or the model.
 - **NORMAL mode** passes video through untouched, by design.
 - **Things outside CensorCam:** other OBS sources, overlays, TikTok-side content. Keep a "BRB" scene in OBS as an independent panic button.
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*

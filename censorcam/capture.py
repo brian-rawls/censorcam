@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Frame sources with "latest frame wins" semantics.
 
 A dedicated thread reads the device continuously so the driver buffer never

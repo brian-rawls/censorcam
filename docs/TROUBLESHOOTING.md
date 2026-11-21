@@ -82,3 +82,6 @@ Open an issue and include:
 - one `[stat]` line from each mode;
 - the output of `http://127.0.0.1:8765/metrics`;
 - `build_log.txt`, if the problem is the engine build.
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*

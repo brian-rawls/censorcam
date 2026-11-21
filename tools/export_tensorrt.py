@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Optional: export the model to a TensorRT FP16 engine for lower, steadier inference time.
 
     python tools/export_tensorrt.py --weights yolo11s-seg.pt

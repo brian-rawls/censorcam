@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Make a short 1080p30 smoke-test clip containing real people (Ultralytics'
 bundled sample photos, slowly panning). Only for checking that the pipeline
 runs end to end - it says NOTHING about accuracy on GTA characters. Use your

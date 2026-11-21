@@ -73,3 +73,6 @@ python -m censorcam --video gameplay.mp4 --no-realtime --output null --start-mod
 ```
 
 Compare models by changing `--weights`. For accuracy at the same time, use `tools/eval_segmentation.py` ([ACCURACY.md](ACCURACY.md)).
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*

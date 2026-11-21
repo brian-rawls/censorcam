@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """CensorCam entry point.
 
     python -m censorcam @live.args           # live: HD60 X -> Spout -> OBS
@@ -24,7 +26,8 @@ from .state import Mode, OperatorState
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="censorcam", fromfile_prefix_chars="@",
-                                description="Manual, fail-closed gameplay censorship for OBS.")
+                                description="CensorCam - manual, fail-closed gameplay censorship for OBS. "
+                                            "By Aeternum Logic (developer: Brian Rawls).")
     src = p.add_argument_group("input")
     src.add_argument("--device", default=None,
                      help="capture device index or name (e.g. 'HD60 X'). Default input if --video not given.")
@@ -131,6 +134,8 @@ def _windows_realtime_tweaks() -> None:
 
 def main(argv=None) -> int:
     args = build_parser().parse_args(argv)
+    from . import __version__, __author__, __company__
+    print(f"CensorCam v{__version__} - {__company__} (developer: {__author__})", flush=True)
     _windows_realtime_tweaks()
     if args.list_devices:
         for i, name in list_devices():

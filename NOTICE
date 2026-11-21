@@ -1,0 +1,12 @@
+CensorCam
+Copyright (C) 2026 Aeternum Logic
+Developed by Brian Rawls
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, version 3. This program is distributed WITHOUT ANY
+WARRANTY; see the LICENSE file for details.
+
+Third-party components are installed separately and remain under their own
+licenses, including: Ultralytics YOLO (AGPL-3.0), PyTorch, OpenCV, NVIDIA
+TensorRT, SpoutGL / Spout, obsws-python, pyvirtualcam, mss and pygrabber.

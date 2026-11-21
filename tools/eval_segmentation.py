@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Measure how well the person model censors characters in YOUR gameplay footage.
 
 Do not assume a COCO "person" model sees game characters. This tool tells you

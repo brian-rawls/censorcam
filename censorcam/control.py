@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Local control API (Stream Deck, browser dashboard) and optional OBS scene bridge.
 
 Endpoints (GET, bound to 127.0.0.1 only):
@@ -23,7 +25,7 @@ from urllib.parse import parse_qs, urlparse
 
 from .state import Mode, OperatorState
 
-DASHBOARD = """<!doctype html><html><head><meta charset="utf-8"><title>CensorCam</title>
+DASHBOARD = """<!doctype html><html><head><meta charset="utf-8"><title>CensorCam - Aeternum Logic</title>
 <style>
 body{font:15px system-ui,sans-serif;background:#111;color:#eee;margin:24px;max-width:860px}
 .btns{display:flex;gap:12px;margin:12px 0 20px}
@@ -40,6 +42,7 @@ pre{background:#1b1b1b;padding:12px;border-radius:8px;overflow:auto;font-size:13
 <button id="b-all" onclick="go('/mode/all')">BLUR ALL</button></div>
 <label><input type="checkbox" id="probe" onchange="go(this.checked?'/probe/on':'/probe/off')"> latency probe strip (visible on stream - testing only)</label>
 <pre id="m"></pre>
+<p style="opacity:.6;font-size:13px">CensorCam by Aeternum Logic &middot; developed by Brian Rawls</p>
 <script>
 const K=new URLSearchParams(location.search).get('key');const q=K?('?key='+encodeURIComponent(K)):'';
 function go(p){fetch(p+q).then(tick)}

@@ -1,3 +1,5 @@
+# CensorCam - Copyright (C) 2026 Aeternum Logic. Developed by Brian Rawls.
+# Licensed under the GNU Affero General Public License v3.0 - see LICENSE.
 """Image operations: irreversible obscuring + mask construction/compositing.
 
 Obscuring is done by heavy downsampling (information is destroyed, not just

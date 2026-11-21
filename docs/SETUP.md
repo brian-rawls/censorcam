@@ -186,3 +186,6 @@ Video takes the longer path (CensorCam → Spout → OBS → Virtual Camera → 
   python -m censorcam --video gameplay.mp4 --loop --start-mode people --output spout
   ```
   Watch `failsafe`, `drops cap` and `watchdog` in the status line.
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*

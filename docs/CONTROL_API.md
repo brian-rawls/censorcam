@@ -116,3 +116,6 @@ Settings files hold one argument per line and are passed as `python -m censorcam
 | `--status-every` | 5 | Seconds between console status lines (0 = off). |
 | `--metrics-json` | — | Write final metrics to this file on exit. |
 | `--list-devices` | — | Print capture devices and exit. |
+
+---
+*CensorCam by Aeternum Logic · developed by Brian Rawls*
