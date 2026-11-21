@@ -1,0 +1,14 @@
+# Install PyTorch with CUDA FIRST (install.bat does this), then:
+#   pip install -r requirements.txt
+ultralytics>=8.3.0                          # YOLO segmentation (AGPL-3.0)
+opencv-python>=4.9                          # capture + image ops (full build: needed for --output preview)
+numpy>=1.24
+SpoutGL>=0.1.1; sys_platform == "win32"     # GPU texture sharing into OBS (wheels for Python 3.8-3.13)
+pygrabber>=0.2; sys_platform == "win32"     # select capture device by name
+pyvirtualcam>=0.11                          # optional fallback output (--output vcam)
+obsws-python>=1.7                           # optional: --obs-scenes (follow OBS scene changes)
+mss>=9                                      # tools/measure_latency.py
+pytest>=8                                   # tests
+# Optional:
+#   tensorrt-cu12==10.16.1.11  (installed by build_engine.bat)
+#   labelme                    (hand-label frames for tools/eval_segmentation.py)

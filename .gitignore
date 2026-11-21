@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Models (downloaded / built locally - the .engine is specific to your GPU + TensorRT version)
+*.pt
+*.onnx
+*.engine
+
+# Media and outputs
+*.mp4
+*.mkv
+*.mov
+eval/
+bench.json
+build_log.txt
+shot.png
+live.local.args
